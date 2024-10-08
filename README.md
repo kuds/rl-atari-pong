@@ -5,7 +5,7 @@
 ![](/Images/dqn_atari_pong.gif)
 
 ## Results
-Hardware: Google Colab T4 High-RAM
+Hardware: Google Colab T4
 
 | Model Type | Average Reward | Training Time | Total Training Steps |
 |------------|----------------|---------------|----------------------|
