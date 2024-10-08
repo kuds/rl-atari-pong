@@ -1,5 +1,7 @@
 # Playing Atari's Pong with Reinforcement Learning
 
+![](/Images/dqn_atari_pong.gif)
+
 ## Training Notes
 - When training with Google Colab Notebooks with high memory option enabled, try not to exceed the buffer size `850,000` as you can run into memory issues
 - When training in more complex environments or using multiple simulated environments (`n_evn` > 1), DQN is very sensitive to the hyperparameter settings
