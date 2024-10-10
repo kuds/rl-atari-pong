@@ -2,7 +2,11 @@
 
 ## Deep Q Learning (DQN)
 
-![](/Images/dqn_atari_pong.gif)
+![](/Images/atari_pong_dqn.gif)
+
+## Proximal Policy Optimization (PPO)
+
+![](/Images/atari_pong_ppo.gif)
 
 ## Results
 Hardware: Google Colab T4
