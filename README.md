@@ -13,9 +13,9 @@ Hardware: Google Colab T4
 
 | Model Type | Average Reward | Training Time | Total Training Steps |
 |------------|----------------|---------------|----------------------|
-| PPO        | 21.0           |               | 10,000,000           |
+| PPO        | 21.0           | 5:32:21       | 10,000,000           |
 | SAC        |                |               |                      |
-| DQN        | 20.6           |  11:56:00     | 10,000,000           | 
+| DQN        | 20.6           | 11:56:00      | 10,000,000           | 
 
 ## Training Notes
 - When training with Google Colab Notebooks with high memory option enabled, try not to exceed the buffer size `850,000` as you can run into memory issues
