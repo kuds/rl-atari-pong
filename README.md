@@ -21,5 +21,5 @@ Hardware: Google Colab T4
 - When training in more complex environments or using multiple simulated environments (`n_evn` > 1), DQN is very sensitive to the hyperparameter settings
 - Stable Baselines3 implementation of Soft Actor-Critic (SAC) only supports continuous action spaces and can not be used with Atari's Pong as it uses discrete actions
   
-## Blog Post
+## Blog Posts
 - [Mastering Atari's Pong with Reinforcement Learning: Overcoming Sparse Rewards and Optimizing Performance](https://www.findingtheta.com/blog/mastering-ataris-pong-with-reinforcement-learning-overcoming-sparse-rewards-and-optimizing-performance)
