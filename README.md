@@ -9,12 +9,14 @@
 ![](/Images/atari_pong_ppo.gif)
 
 ## Results
-Hardware: Google Colab T4
+Hardware: Google Colab L4
 
-| Model Type | Average Reward | Training Time | Total Training Steps |
-|------------|----------------|---------------|----------------------|
-| PPO        | 21.0           | 5:32:21       | 10,000,000           |
-| DQN        | 20.6           | 11:56:00      | 10,000,000           | 
+| Model Type | Environment Version | Average Reward | Training Steps | HuggingFace |
+|------------|---------------------|----------------|----------------| ------------|
+| PPO        | PongNoFrameskip-v4  | 21.0           | 4,000,000      |             |
+| DQN        | PongNoFrameskip-v4  | 20.6           | 4,000,000      |             |
+| PPO        | ALE/Pong-v5         |                |                |             |
+| DQN        | ALE/Pong-v5         |                |                |             |
 
 ## Training Notes
 - When training with Google Colab Notebooks with high memory option enabled, try not to exceed the buffer size `850,000` as you can run into memory issues
