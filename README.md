@@ -11,12 +11,12 @@
 ## Results
 Hardware: Google Colab L4
 
-| Model Type | Environment Version | Average Reward | Training Steps | HuggingFace |
-|------------|---------------------|----------------|----------------| ------------|
-| PPO        | PongNoFrameskip-v4  | 21.0           | 4,000,000      |             |
-| DQN        | PongNoFrameskip-v4  | 20.6           | 4,000,000      |             |
-| PPO        | ALE/Pong-v5         |                |                |             |
-| DQN        | ALE/Pong-v5         |                |                |             |
+| Model Type | Environment Version | Average Reward | Training Steps | HuggingFace                                           |
+|------------|---------------------|----------------|----------------| ------------------------------------------------------|
+| PPO        | PongNoFrameskip-v4  | 21.0           | 4,000,000      |                                                       |
+| DQN        | PongNoFrameskip-v4  | 20.6           | 4,000,000      | [Link](https://huggingface.co/kuds/atari-pong-v4-dqn) |
+| PPO        | ALE/Pong-v5         |                |                |                                                       |
+| DQN        | ALE/Pong-v5         |                |                |                                                       |
 
 ## Training Notes
 - When training with Google Colab Notebooks with high memory option enabled, try not to exceed the buffer size `850,000` as you can run into memory issues
